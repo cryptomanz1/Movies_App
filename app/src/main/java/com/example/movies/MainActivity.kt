@@ -15,6 +15,7 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.movies.data.getMovieByTitle
 import com.example.movies.movies.MovieDetailsScreen
 import com.example.movies.movies.MoviesScreen
 
