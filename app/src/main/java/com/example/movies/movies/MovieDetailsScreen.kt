@@ -59,7 +59,11 @@ fun MovieDetailsScreen(movie: Movie, onBackClick: () -> Unit) {
             Text(text = "Short Description: ${movie.description}")
 
             // Детали фильма
-            Text(text = "Details: Add your detailed information here")
+            Text(text = "Details")
+
+            Text(text = "Genre: ${movie.genre}")
+
+            Text(text = "Released date: ${movie.releaseDate}")
         }
     }
 }
